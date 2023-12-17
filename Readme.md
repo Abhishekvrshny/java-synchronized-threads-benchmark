@@ -34,7 +34,7 @@ Thread Type: VIRTUAL Thread Count 32 Time: 12010 ms
 ```
 
 ## Interpretation
-It is evident from the run that `platform` threads `yield` on `sleeping` and release the processor to other threads, while `virtual` threads seem to be holding on the processor and hence total execution time adds up once the total number of threads executing exceeds the total processor count. 
+It is evident from the run that `platform` threads `yield` on `sleeping` and release the processor to other threads, while `virtual` threads seem to be holding on to the processor and hence total execution time adds up once the total number of threads executing exceeds the total processor count. 
 
 ## Detailed Explanation
 TBD

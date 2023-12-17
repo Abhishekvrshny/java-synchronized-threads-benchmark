@@ -4,11 +4,11 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
 
-public class WorkManager {
+public class TaskManager {
   private ThreadFactory threadFactory;
   private int threads;
 
-  public WorkManager(ThreadType threadType, int threads) {
+  public TaskManager(ThreadType threadType, int threads) {
     this.threads = threads;
     switch (threadType) {
       case VIRTUAL -> this.threadFactory = Thread.ofVirtual().factory();

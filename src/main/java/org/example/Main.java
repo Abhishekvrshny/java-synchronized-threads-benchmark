@@ -5,16 +5,16 @@ public class Main {
     System.out.println("Total Cores " + Runtime.getRuntime().availableProcessors());
     int[] threadsList = new int[] {2, 4, 8, 11, 13, 16, 23, 25, 32};
     for (int threads : threadsList) {
-      execute(ThreadType.PLATFORM, threads);
-      execute(ThreadType.VIRTUAL, threads);
+      run(ThreadType.PLATFORM, threads);
+      run(ThreadType.VIRTUAL, threads);
     }
   }
 
-  static void execute(ThreadType threadType, int threads) {
+  static void run(ThreadType threadType, int threads) {
     long start = System.currentTimeMillis();
 
-    WorkManager workManager = new WorkManager(threadType, threads);
-    workManager.start();
+    TaskManager taskManager = new TaskManager(threadType, threads);
+    taskManager.start();
 
     long finish = System.currentTimeMillis();
     long timeElapsed = finish - start;
