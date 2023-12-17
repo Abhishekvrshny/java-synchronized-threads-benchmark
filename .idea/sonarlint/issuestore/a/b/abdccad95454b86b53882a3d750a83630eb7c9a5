@@ -1,0 +1,6 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8åµ½Ç1
+f
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(Ï¨ÜÂúÿÿÿÿ
+{
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8Ãåµ½Ç1
