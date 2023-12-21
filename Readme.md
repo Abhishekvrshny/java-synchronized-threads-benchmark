@@ -55,7 +55,7 @@ Thread Type: VIRTUAL    Time: 12008 ms
 ## Interpretation
 It is evident from the run that `platform` threads `yield` on `sleeping` and release the processor to other threads, while `virtual` threads seem to be holding on to the processor and hence total execution time adds up once the total number of threads executing exceeds the total processor count.
 
-![result](https://github.com/Abhishekvrshny/java-synchronized-threads-benchmark/assets/12811812/c68c24c4-cb0e-425c-bea3-6d19a4412b09) 
+![result](https://github.com/Abhishekvrshny/java-synchronized-threads-benchmark/assets/12811812/1352b2eb-4313-4a36-91a0-7bd68e88afaf) 
 
 ## Detailed Explanation
 TBD
