@@ -59,4 +59,4 @@ It is evident from the run that `platform` threads `yield` on `sleeping` and rel
 
 ## Detailed Explanation
 
-![Medium Blog](https://abhishekvrshny.medium.com/pinning-a-pitfall-to-avoid-when-using-virtual-threads-in-java-482c5eab78a3)
+[Medium Blog](https://abhishekvrshny.medium.com/pinning-a-pitfall-to-avoid-when-using-virtual-threads-in-java-482c5eab78a3)
