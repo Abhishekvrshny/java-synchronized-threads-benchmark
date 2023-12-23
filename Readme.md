@@ -58,4 +58,5 @@ It is evident from the run that `platform` threads `yield` on `sleeping` and rel
 ![result](https://github.com/Abhishekvrshny/java-synchronized-threads-benchmark/assets/12811812/1352b2eb-4313-4a36-91a0-7bd68e88afaf) 
 
 ## Detailed Explanation
-TBD
+
+![Medium Blog](https://abhishekvrshny.medium.com/pinning-a-pitfall-to-avoid-when-using-virtual-threads-in-java-482c5eab78a3)
